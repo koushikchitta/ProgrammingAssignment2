@@ -2,7 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
-## Special matrix 
+## Special matrix which can cache the inverse of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
     mi <- NULL
@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 ## Write a short comment describing this function
-
+## cachesolve to get inverse of a matrix
 cacheSolve <- function(x, ...) {
     ## Return a matrix that is the inverse of 'x'
     m <- x$getmatInverse()
